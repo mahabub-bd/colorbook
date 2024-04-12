@@ -1,6 +1,6 @@
-import { HeaderTop, TelephoneIcon } from "@/constants/images";
+import { HeaderTop, TelephoneIcon } from "@/public";
 import Image from "next/image";
-import { NavbarComponent } from "../Navbar";
+import Navbar from "../Navbar";
 
 export default function Header() {
   return (
@@ -44,7 +44,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <NavbarComponent />
+      <Navbar />
     </>
   );
 }

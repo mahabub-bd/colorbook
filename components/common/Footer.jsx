@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="footer-area pt-5">
+    <footer className="footer-area py-20">
       <div className=" container mx-auto sm:px-4">
         <div className="flex flex-wrap  justify-between">
           <div className="xl:w-1/3 pr-4 pl-4 lg:w-2/5  md:w-1/2 ">
@@ -82,8 +82,7 @@ export default function Footer() {
               <p>Need Any Support Us! Or Work Together?</p>
               <ul>
                 <li>
-                  <i className="far fa-map-marker-alt"></i> 55 Main Srteet, New
-                  York
+                  <i className="far fa-map-marker-alt"></i> Fakirapool, Dhaka
                 </li>
                 <li>
                   <i className="far fa-envelope"></i>

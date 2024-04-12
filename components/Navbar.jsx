@@ -1,53 +1,59 @@
 "use client";
-import { Button, Navbar } from "keep-react";
+
 import Image from "next/image";
-import { MagnifyingGlass } from "phosphor-react";
+import Link from "next/link";
+import { useState } from "react";
 
-import Logo from "../public/logos/logo.png";
+import { navLinks } from "@/constants";
+import useScroll from "@/hooks/useScroll";
+import { Logo } from "@/public";
+import { TogglerMenu } from ".";
 
-export const NavbarComponent = () => {
+const Navbar = () => {
+  const [active, setActive] = useState("Home");
+
+  const { scrolled } = useScroll();
+
   return (
-    <Navbar>
-      <Navbar.Container className="flex items-center justify-between">
-        <Navbar.Container className="flex items-center">
-          <Navbar.Brand>
-            <Image src={Logo} alt="keep" width="100" height="40" />
-          </Navbar.Brand>
-          <Navbar.Divider></Navbar.Divider>
-          <Navbar.Container
-            tag="ul"
-            className="lg:flex hidden items-center justify-between gap-8"
+    <div className="scroll-mt-[200px] ">
+      <div
+        className={` container  relative mx-auto  bg-white ${
+          scrolled && "sticky drop-shadow-lg"
+        }`}
+        id="home"
+      >
+        <nav
+          className={`  mx-auto flex px-3 py-2   sm:px-0 justify-between items-center`}
+        >
+          <Link href="/">
+            <Image
+              src={Logo}
+              alt="headerlogo"
+              className="w-[50px]  object-contain"
+              priority
+            />
+          </Link>
+          <ul
+            className={`list-none sm:flex hidden items-center justify-center flex-1`}
           >
-            <Navbar.Link linkName="Home" />
+            {navLinks.map((nav) => (
+              <li
+                key={nav.id}
+                className={` font-bold nav-font cursor-pointer text-[16px]  ${
+                  active === nav.title ? "text-blue-700 " : "text-black"
+                } [&:not(:last-child)]:mr-10`}
+                onClick={() => setActive(nav.title)}
+              >
+                <Link href={`/${nav.id}`}>{nav.title}</Link>
+              </li>
+            ))}
+          </ul>
 
-            <Navbar.Link linkName="About" />
-            <Navbar.Link linkName="Services" />
-            <Navbar.Link linkName="News" />
-            <Navbar.Link linkName="Resources" />
-            <Navbar.Link linkName="Contacts" />
-          </Navbar.Container>
-          <Navbar.Collapse collapseType="sidebar">
-            <Navbar.Container tag="ul" className="flex flex-col gap-5">
-              <Navbar.Link linkName="Home" />
-
-              <Navbar.Link linkName="Blogs" />
-              <Navbar.Link linkName="News" />
-              <Navbar.Link linkName="Resources" />
-            </Navbar.Container>
-          </Navbar.Collapse>
-        </Navbar.Container>
-
-        <Navbar.Container className="flex gap-2">
-          <Button size="sm" variant="link">
-            <span>
-              <MagnifyingGlass size={20} color="#444" />
-            </span>
-            <span className="ml-2 text-metal-600">Search</span>
-          </Button>
-          <Button size="sm">Contact</Button>
-          <Navbar.Toggle />
-        </Navbar.Container>
-      </Navbar.Container>
-    </Navbar>
+          <TogglerMenu />
+        </nav>
+      </div>
+    </div>
   );
 };
+
+export default Navbar;

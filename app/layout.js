@@ -3,8 +3,6 @@ import Header from "@/components/common/Header";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-import "./fa.css";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
