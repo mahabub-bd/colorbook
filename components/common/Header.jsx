@@ -1,4 +1,11 @@
-import { HeaderTop, TelephoneIcon } from "@/public";
+import {
+  Facebook,
+  HeaderTop,
+  Instragram,
+  Linkedin,
+  TelephoneIcon,
+  Twitter,
+} from "@/public";
 import Image from "next/image";
 import Navbar from "../Navbar";
 
@@ -27,16 +34,17 @@ export default function Header() {
                 </li>
                 <li className="social-style-one">
                   <a href="#">
-                    <i className="fab fa-facebook-f" aria-hidden="true"></i>
+                    <Image src={Facebook} alt="facebook" className="w-5" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-twitter" aria-hidden="true"></i>
+                    <Image src={Twitter} alt="facebook" className="w-5" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-dribbble" aria-hidden="true"></i>
+                    <Image src={Linkedin} alt="facebook" className="w-5" />
                   </a>
+
                   <a href="#">
-                    <i className="fab fa-instagram" aria-hidden="true"></i>
+                    <Image src={Instragram} alt="facebook" className="w-5" />
                   </a>
                 </li>
               </ul>

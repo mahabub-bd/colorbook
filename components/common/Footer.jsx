@@ -1,4 +1,4 @@
-import { Logo } from "@/constants/images";
+import { Logo } from "@/public";
 import Image from "next/image";
 
 export default function Footer() {
@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="widget widget_about wow fadeInUp delay-0-2s">
               <div className="footer-logo mb-25">
                 <a href="index.html">
-                  <Image src={Logo} alt="Logo" />
+                  <Image src={Logo} alt="Logo" className="w-10" />
                 </a>
               </div>
               <p>
