@@ -28,14 +28,21 @@ const HeroArea = () => {
           </div>
 
           <div className="hero-images animate__animated animate__fadeInLeft animate__delay-0.2s">
-            <Image className="rounded-md" src={HeroOne} alt="Hero Image" />
             <Image
-              className="image-one animate__animated animate__fadeInRight animate__delay-0.6s rounded-md"
+              className="rounded-md"
+              src={HeroOne}
+              alt="Hero Image"
+              priority
+            />
+            <Image
+              className="image-one animate__animated animate__fadeInRight animate__delay-0.6s rounded-md "
+              priority
               src={HeroOne}
               alt="Hero Image"
             />
             <Image
               className="image-two animate__animated animate__fadeInDown animate__delay-0.8s rounded-md"
+              priority
               src={HeroOne}
               alt="Hero Image"
             />

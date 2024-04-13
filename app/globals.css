@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* -------------------------------------------------------------- */
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap");
-/*******************************************************/
-/******************* 01. Default Style *****************/
-/*******************************************************/
 * {
   margin: 0;
   padding: 0;
@@ -22,9 +17,16 @@ body {
   font-weight: 400;
   line-height: 32px;
   font-size: 18px;
-  font-family: "Outfit", sans-serif;
 }
 
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
 a {
   color: #7e7e7e;
   cursor: pointer;
@@ -976,7 +978,6 @@ h6,
 .tab-btns-one .nav-link .title {
   font-weight: 600;
   color: #000000;
-  font-family: "Outfit", sans-serif;
 }
 
 /*******************************************************/

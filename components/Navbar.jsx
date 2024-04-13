@@ -23,7 +23,7 @@ const Navbar = () => {
         id="home"
       >
         <nav
-          className={`  mx-auto flex px-3 py-2   sm:px-0 justify-between items-center`}
+          className={`mx-auto flex px-3 py-2 sm:px-0 justify-between items-center`}
         >
           <Link href="/">
             <Image
@@ -36,7 +36,7 @@ const Navbar = () => {
           <ul
             className={`list-none sm:flex hidden items-center justify-center flex-1`}
           >
-            {navLinks.map((nav) => (
+            {navLinks?.map((nav) => (
               <li
                 key={nav.id}
                 className={` font-bold nav-font cursor-pointer text-[16px]  ${

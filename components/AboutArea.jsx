@@ -5,19 +5,19 @@ const AboutSection = () => {
   return (
     <div className="about-area py-130 relative z-1">
       <div className="mx-auto container">
-        <div className="flex items-center justify-between gap-5">
+        <div className="flex items-center justify-between gap-5  md:flex-row flex-col">
           <div className="about-images mb-65">
             <div className="flex items-center justify-center flex-col ">
               <div className="flex justify-around gap-2">
-                <div className="image wow fadeInLeft delay-0-4s">
+                <div className="image hover:scale-90 ">
                   <Image src={AboutOne} alt="About" width={400} height={400} />
                 </div>
-                <div className="image wow fadeInLeft delay-0-4s">
+                <div className="image hover:scale-90 ">
                   <Image src={AboutTwo} alt="About" width={400} height={400} />
                 </div>
               </div>
 
-              <div className="about-video wow fadeInRight delay-0-6s">
+              <div className="about-video hover:scale-90 ">
                 <Image src={AboutVideo} alt="About" width={400} height={400} />
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
@@ -41,7 +41,7 @@ const AboutSection = () => {
           <div className="about-content wow fadeInUp delay-0-2s">
             <div className="section-title mb-20">
               <span className="sub-title mb-15">About Company</span>
-              <h2 className=" leading-16">
+              <h2 className="text-[2.5rem] leading-[1.2]">
                 We’re Dhaka Based Printing Services Company
               </h2>
             </div>

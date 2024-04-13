@@ -4,11 +4,17 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/keep-react/**/*.{js,jsx,ts,tsx}",
   ],
-  presets: [require("keep-react/preset")],
+
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "2rem",
+        },
+      },
+    },
   },
   plugins: [],
 };

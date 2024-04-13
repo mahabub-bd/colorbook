@@ -1,4 +1,4 @@
-export const navLinks = [
+const navLinks = [
   {
     id: "/",
     title: "Home",
@@ -12,11 +12,6 @@ export const navLinks = [
   {
     id: "#categories",
     title: "Services",
-  },
-
-  {
-    id: "#courses",
-    title: "Courses",
   },
 
   {
@@ -38,3 +33,5 @@ export const navLinks = [
     title: "Contact",
   },
 ];
+
+export { navLinks };
