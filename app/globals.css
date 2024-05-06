@@ -17,6 +17,7 @@ body {
   font-weight: 400;
   line-height: 32px;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 .bg-black-gradient {
@@ -66,21 +67,21 @@ h6 a {
 
 h1 {
   line-height: 1.18;
-  font-size: 60px;
+  font-size: 46px;
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 34px;
 }
 
 h3 {
   line-height: 1.5;
-  font-size: 27px;
+  font-size: 26px;
 }
 
 h4 {
   line-height: 1.35;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 h5 {
@@ -256,10 +257,6 @@ input[type="radio"] {
   .container-1350 {
     max-width: 1380px;
   }
-}
-
-.row {
-  --bs-gutter-x: 30px;
 }
 
 .no-gap {
@@ -546,20 +543,6 @@ a.theme-btn.style-three:hover {
 .social-style-two a:hover {
   color: white;
   background: #dd1d26;
-}
-
-/*** Preloader style ** */
-.preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999999;
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url(../public/preloader.gif);
 }
 
 /* Pagination */
@@ -4341,24 +4324,7 @@ h6,
 .navbar.style-two .navbar-collapse .navbar-nav > li > .sub-menu {
   left: auto;
 }
-.navbar.style-two .navbar-collapse .navbar-nav > li > a:before {
-  width: 70%;
-  height: 70%;
-  content: "";
-  left: 15%;
-  top: 15%;
-  opacity: 0;
-  z-index: -1;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  visibility: hidden;
-  position: absolute;
-  -webkit-transform: scale(0) rotate(-33deg);
-  -ms-transform: scale(0) rotate(-33deg);
-  transform: scale(0) rotate(-33deg);
-  background: url(../public/shapes/menu-bg.png) no-repeat 100%/100%;
-}
+
 @media only screen and (max-width: 991px) {
   .navbar.style-two .navbar-collapse .navbar-nav > li > a:before {
     display: none;
@@ -5285,12 +5251,12 @@ h6,
 /*******************  08. Hero Area ********************/
 /*******************************************************/
 .hero-content h1 {
-  font-size: 65px;
+  font-size: 48px;
   margin-bottom: 30px;
 }
 @media only screen and (max-width: 1199px) {
   .hero-content h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -6055,7 +6021,6 @@ h6,
 }
 
 .what-we-provide-item {
-  padding: 30px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -6187,7 +6152,7 @@ h6,
   z-index: 1;
   margin: -1px;
   position: relative;
-  padding: 80px 100px;
+  padding: 50px 50px;
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 @media only screen and (max-width: 1599px) {

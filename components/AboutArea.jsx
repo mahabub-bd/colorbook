@@ -42,7 +42,7 @@ const AboutSection = () => {
             <div className="section-title mb-20">
               <span className="sub-title mb-15">About Company</span>
               <h2 className="text-[2.5rem] leading-[1.2]">
-                We’re Dhaka Based Printing Services Company
+                Print Services Company Rooted in Bangladesh
               </h2>
             </div>
             <div className="experience-year mb-20">

@@ -5,31 +5,27 @@ const navLinks = [
   },
 
   {
-    id: "#about",
+    id: "/about",
     title: "About",
   },
 
   {
-    id: "#categories",
-    title: "Services",
+    id: "/products",
+    title: "Products",
   },
 
   {
-    id: "#review",
+    id: "/review",
     title: "Feedback",
   },
 
   {
-    id: "notice",
-    title: "Notice",
-  },
-  {
-    id: "#gallery",
+    id: "/gallery",
     title: "Gallery",
   },
 
   {
-    id: "#contact",
+    id: "/contact",
     title: "Contact",
   },
 ];

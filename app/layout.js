@@ -1,9 +1,9 @@
 import Footer from "@/components/common/Footer";
 import Header from "@/components/common/Header";
 
-import "./globals.css";
-
 import { Outfit } from "next/font/google";
+import "swiper/css/bundle";
+import "./globals.css";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -11,7 +11,7 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  title: "Color Book",
+  title: "Color Book | Your Trust Printing Partner",
   description: "Color Book",
 };
 

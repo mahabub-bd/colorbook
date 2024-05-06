@@ -1,4 +1,4 @@
-import { Facebook, Instragram, Linkedin, Twitter } from "@/public";
+import { Facebook, Linkedin, Twitter } from "@/public";
 
 export const socialMedia = [
   {
@@ -15,10 +15,5 @@ export const socialMedia = [
     id: "social-media-3",
     icon: Linkedin,
     link: "https://www.linkedin.com",
-  },
-  {
-    id: "social-media-4",
-    icon: Instragram,
-    link: "https://www.instagram.com",
   },
 ];

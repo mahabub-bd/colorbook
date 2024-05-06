@@ -1,3 +1,5 @@
+import { OffsetMachine } from "@/public";
+
 const ServicesArea = () => {
   return (
     <div className="services-area rel z-1">
@@ -50,10 +52,7 @@ const ServicesArea = () => {
                   </a>
                   <div
                     className="bg-image"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/services/service-bg.jpg)",
-                    }}
+                    style={{ backgroundImage: `url(${OffsetMachine.src})` }}
                   ></div>
                 </div>
               </div>
@@ -76,10 +75,7 @@ const ServicesArea = () => {
                   </a>
                   <div
                     className="bg-image"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/services/service-bg.jpg)",
-                    }}
+                    style={{ backgroundImage: `url(${OffsetMachine.src})` }}
                   ></div>
                 </div>
               </div>
@@ -103,10 +99,7 @@ const ServicesArea = () => {
                   </a>
                   <div
                     className="bg-image"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/services/service-bg.jpg)",
-                    }}
+                    style={{ backgroundImage: `url(${OffsetMachine.src})` }}
                   ></div>
                 </div>
               </div>
@@ -128,10 +121,7 @@ const ServicesArea = () => {
                   </a>
                   <div
                     className="bg-image"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/services/service-bg.jpg)",
-                    }}
+                    style={{ backgroundImage: `url(${OffsetMachine.src})` }}
                   ></div>
                 </div>
               </div>
