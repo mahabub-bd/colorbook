@@ -1,10 +1,15 @@
 import { Logo } from "@/public";
+import FooterBg from "https://res.cloudinary.com/mahabub-bd/image/upload/v1719148351/footer-3-bg_yqxrel.jpg";
 import Image from "next/image";
 import Link from "next/link";
-
 export default function Footer() {
   return (
-    <footer className="footer-area py-40">
+    <footer
+      className="footer-area py-40 bg-gradient-to-r from-blue-50 to-transparent"
+      style={{
+        backgroundImage: `linear-gradient(90deg, rgba(255, 255, 255, .95), rgba(255, 255, 255, .85)), url(${FooterBg.src})`,
+      }}
+    >
       <div className=" container mx-auto sm:px-4">
         <div className="flex flex-wrap  justify-between">
           <div className="xl:w-1/3 pr-4 pl-4 lg:w-2/5  md:w-1/2 ">
@@ -108,12 +113,18 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="footer-bottom mt-15 pt-25 pb-10">
+        <div className=" border-t-2 mt-15 pt-25 ">
           <div className="flex flex-wrap  items-center">
             <div className="lg:w-full pr-4 pl-4">
-              <div className="copyright-text text-center text-lg-start">
-                <Link className="text-center" href="/">
+              <div className="copyright-text text-center flex items-center md:justify-between md:flex-row flex-col justify-center ">
+                <Link className="text-center text-md text-red-500" href="/">
                   © Copyright 2024, All Right Reserved{" "}
+                </Link>
+                <Link
+                  className="text-center text-md text-blue-500"
+                  href="https://mahabub.me/"
+                >
+                  This site is developed by Mahabub Hossain
                 </Link>
               </div>
             </div>

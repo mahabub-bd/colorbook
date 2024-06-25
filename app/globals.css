@@ -10589,11 +10589,10 @@ h6,
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .contact-info-content {
-  padding: 75px 80px;
+  padding: 75px 40px;
 }
 @media only screen and (min-width: 992px) {
   .contact-info-content {
@@ -10625,7 +10624,7 @@ h6,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 40px 80px;
+  padding: 20px 40px;
 }
 @media only screen and (max-width: 575px) {
   .contact-info-item {

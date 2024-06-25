@@ -8,6 +8,10 @@ module.exports = {
 
   theme: {
     extend: {
+      backgroundImage: {
+        "custom-gradient":
+          "linear-gradient(90deg, rgba(0, 0, 0, .66), transparent)",
+      },
       container: {
         center: true,
         padding: {
