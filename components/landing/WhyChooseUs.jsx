@@ -1,5 +1,6 @@
 import { whyChooseUs } from "@/constants/data";
 import { WhatWeDo } from "@/public";
+import SectionHeader from "../common/SectionHeader";
 import WhyChooseCard from "./WhyChooseCard";
 
 const WhyChooseUs = () => {
@@ -9,10 +10,10 @@ const WhyChooseUs = () => {
       style={{ backgroundImage: `url(${WhatWeDo.src})` }}
     >
       <div className="container mx-auto">
-        <div className="section-title text-center mb-20 ">
-          <span className="sub-title mb-10">Why Choose Us</span>
-          <h2 className="py-10">Best Category For Printing</h2>
-        </div>
+        <SectionHeader
+          subtitle="Why Choose Us"
+          title="Best Category For Printing"
+        />
       </div>
       <div className="container">
         <div className="grid grid-cols-12">

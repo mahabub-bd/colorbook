@@ -3,6 +3,7 @@ import ContactFeature from "@/components/contact/ContactFeature";
 import ContactFormArea from "@/components/contact/ContactForm";
 import ContactInfoArea from "@/components/contact/ContactInfoArea";
 import Location from "@/components/contact/Location";
+import WhyChooseUs from "@/components/landing/WhyChooseUs";
 
 export default function ContactPage() {
   return (
@@ -12,6 +13,7 @@ export default function ContactPage() {
       <ContactInfoArea />
       <Location />
       <ContactFormArea />
+      <WhyChooseUs />
     </div>
   );
 }

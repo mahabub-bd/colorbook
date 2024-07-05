@@ -2,16 +2,18 @@ import Image from "next/image";
 
 const ProductCard = ({ product }) => {
   return (
-    <div className="rounded overflow-hidden shadow-lg m-4">
+    <div className="rounded-xl hover:scale-95 overflow-hidden shadow-xl m-4 bg-gradient-to-r from-red-50 to-gray-50  ">
       <Image
-        src="https://res.cloudinary.com/mahabub-bd/image/upload/v1719152544/colorbook/category/Brochure-Printing-Service-in-Bangladesh-1_ckas8r.jpg"
+        src={product?.imgUrl}
         alt={product?.name}
-        className="w-full h-88"
+        className="w-[380px] h-60 bg-slate-100 object-contain"
         width={300}
         height={160}
       />
 
-      <h3 className="text-xl  my-2 text-center">{product?.name}</h3>
+      <h3 className="text-lg  my-1 py-2 text-center hover:text-red-500 cursor-pointer">
+        {product?.name}
+      </h3>
     </div>
   );
 };

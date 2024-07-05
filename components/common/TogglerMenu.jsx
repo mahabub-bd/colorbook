@@ -2,11 +2,11 @@
 
 import { Close, Menu } from "@/public";
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 
 import { navLinks } from "@/constants";
 import styles from "@/styles/styles";
+import CustomLink from "./CustomLink";
 
 const TogglerMenu = () => {
   const [toggle, setToggle] = useState(false);
@@ -28,9 +28,9 @@ const TogglerMenu = () => {
         <ul className=" list-none flex  flex-col  flex-1">
           {navLinks.map((item) => (
             <li key={item.id} className={`${styles.mobileMenu} `}>
-              <Link scroll={false} href={`/${item.id}`}>
+              <CustomLink scroll={false} path={`${item.id}`}>
                 {item.title}
-              </Link>
+              </CustomLink>
             </li>
           ))}
         </ul>

@@ -1,11 +1,11 @@
 import TeamMemberCard from "./TeamMemberCard";
 
 const ceoImage =
-  "https://res.cloudinary.com/mahabub-bd/image/upload/v1718975313/colorbook/photo-1599566150163-29194dcaad36_oqd3su.jpg";
+  "https://res.cloudinary.com/mahabub-bd/image/upload/c_fill,w_400,h_533,ar_3:4/v1718975313/colorbook/photo-1599566150163-29194dcaad36_oqd3su.jpg";
 const managerImage1 =
-  "https://res.cloudinary.com/mahabub-bd/image/upload/v1718975428/colorbook/photo-1507003211169-0a1dd7228f2d_iz4sit.jpg";
+  "https://res.cloudinary.com/mahabub-bd/image/upload/c_fill,w_500,h_667,ar_3:4/v1718975428/colorbook/photo-1507003211169-0a1dd7228f2d_iz4sit.jpg";
 const managerImage2 =
-  "https://res.cloudinary.com/mahabub-bd/image/upload/v1718975313/colorbook/photo-1599566150163-29194dcaad36_oqd3su.jpg";
+  "https://res.cloudinary.com/mahabub-bd/image/upload/c_fill,w_600,h_800,ar_3:4/v1719423100/colorbook/photo-1535713875002-d1d0cf377fde_vqajqm.jpg";
 
 const Team = () => {
   return (
@@ -15,7 +15,7 @@ const Team = () => {
       </h2>
       <div className="flex flex-wrap justify-center gap-8">
         <TeamMemberCard
-          name="John Doe"
+          name="Md. Zahidul Haque"
           title="CEO"
           image={ceoImage}
           description="John has over 20 years of experience in the printing industry and leads our team with a commitment to excellence."

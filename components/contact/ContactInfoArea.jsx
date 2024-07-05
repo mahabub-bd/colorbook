@@ -42,7 +42,7 @@ const ContactInfoArea = () => {
                 </h4>
                 <a
                   href="mailto:info@colorbook.com.bd"
-                  className="text-blue-600"
+                  className="text-gray-600"
                 >
                   info@colorbook.com.bd
                 </a>
@@ -56,7 +56,7 @@ const ContactInfoArea = () => {
                 <h4 className="text-lg font-semibold text-gray-800">
                   Phone No
                 </h4>
-                <a href="tel:+8801780100700" className="text-blue-600">
+                <a href="tel:+8801780100700" className="text-gray-600">
                   +8801780100700
                 </a>
               </div>

@@ -12,6 +12,10 @@ module.exports = {
         "custom-gradient":
           "linear-gradient(90deg, rgba(0, 0, 0, .66), transparent)",
       },
+      colors: {
+        "custom-pink": "#ffe6e6",
+        "custom-orange": "#ffede6",
+      },
       container: {
         center: true,
         padding: {

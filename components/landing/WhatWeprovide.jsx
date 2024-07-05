@@ -1,27 +1,28 @@
 "use client";
+
 import { servicesData } from "@/constants/data";
 import { WhatWeDo } from "@/public";
 import Image from "next/image";
 import Link from "next/link";
-
 import { Autoplay } from "swiper/modules";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.css";
+import SectionHeader from "../common/SectionHeader";
 
 const WhatWeProvide = () => {
-  const swiper = useSwiper();
-
   return (
     <section
-      className=" bgc-lighter py-50 relative"
+      className="bgc-lighter py-50 relative"
       style={{ backgroundImage: `url(${WhatWeDo.src})` }}
     >
       <div className="container mx-auto">
-        <div className="section-title text-center mb-20 ">
-          <span className="sub-title mb-10">What We Provide</span>
-          <h2 className="py-10">Best Category For Printing</h2>
-        </div>
+        <SectionHeader
+          subtitle="What We Provide"
+          title="Best Category For Printing"
+        />
       </div>
-      <div className="container">
+
+      <div className="container ">
         <Swiper
           slidesPerView={4}
           spaceBetween={30}
@@ -47,29 +48,33 @@ const WhatWeProvide = () => {
               spaceBetween: 20,
             },
           }}
-          loop={1000}
+          loop={true}
           modules={[Autoplay]}
           className="mySwiper"
         >
           {servicesData.map((service) => (
             <SwiperSlide
-              className=" flex flex-col px-2 py-2 justify-center shadow-md bg-white rounded-lg items-center"
-              key={service?.id}
+              className="flex  flex-col md:p-2 p-1 shadow-md bg-gradient-to-br from-custom-pink to-custom-orange rounded-lg"
+              key={service.id}
             >
-              <Image
-                src={service?.imgUrl}
-                width={160}
-                height={160}
-                className="rounded-full"
-                alt={service?.title}
-              />
+              <div className="mt-4 text-center w-full">
+                <Image
+                  src={service.imgUrl}
+                  width={160}
+                  height={160}
+                  className="rounded-full mx-auto"
+                  alt={service.title}
+                />
+              </div>
 
-              <Link
-                className="font-semibold mt-10 text-center text-black"
-                href={`products/${service?.productSlug} `}
-              >
-                {service?.title}
-              </Link>
+              <div className="md:my:2 my-1 text-center w-full">
+                <Link
+                  className="font-semibold text-black"
+                  href={`products/${service.productSlug}`}
+                >
+                  {service.title}
+                </Link>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

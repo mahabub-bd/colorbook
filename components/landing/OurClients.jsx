@@ -5,6 +5,7 @@ import Image from "next/image";
 
 import { Autoplay, Grid } from "swiper/modules";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import SectionHeader from "../common/SectionHeader";
 
 const OurClients = () => {
   const swiper = useSwiper();
@@ -15,10 +16,10 @@ const OurClients = () => {
       style={{ backgroundImage: `url(${WhatWeDo.src})` }}
     >
       <div className="container mx-auto">
-        <div className="section-title text-center mb-20 ">
-          <span className="sub-title mb-10">Our Clients</span>
-          <h2 className="py-10">Your One Stop Design & Printing Soulations</h2>
-        </div>
+        <SectionHeader
+          subtitle="Our Clients"
+          title="Your One Stop Design & Printing Soulations"
+        />
       </div>
       <div className="">
         <Swiper

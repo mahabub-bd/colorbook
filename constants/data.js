@@ -8,39 +8,58 @@ const servicesData = [
     products: [
       {
         id: 1,
-        name: "Notebook",
+        name: "Business Card",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152728/colorbook/category/notebook.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1719412182/colorbook/products/Business_20Card_ev5hsk.jpg",
       },
       {
         id: 2,
-        name: "Pen",
+        name: "Envelope",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152728/colorbook/category/pen.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719411936/colorbook/products/Envelopes_lsg9rf.png",
       },
       {
         id: 3,
-        name: "Stapler",
+        name: "Invoice",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152728/colorbook/category/stapler.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1719412519/colorbook/products/invoice_books_printing_dubai_xk5vhk.webp",
       },
       {
-        id: 22,
-        name: "Paper Clips",
+        id: 4,
+        name: "Letterhead Pad",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152728/colorbook/category/paper-clips.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719412592/colorbook/products/Letterhead_sxyzhx.png",
       },
       {
-        id: 23,
-        name: "Eraser",
+        id: 5,
+        name: "Money Receipt",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152728/colorbook/category/eraser.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719412969/colorbook/products/wkzgpp3axceqzfm95evl-removebg-preview_ayml7v.png",
       },
       {
-        id: 24,
-        name: "Highlighter",
+        id: 6,
+        name: "Bill & Challan",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152728/colorbook/category/highlighter.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719413102/colorbook/products/invoice-printing-service-in-dhaka-bangladesh-removebg-preview_yxdvnu.png",
+      },
+      {
+        id: 7,
+        name: "ID Card",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719413884/colorbook/products/IN_ID-cardsl_Hero-image_01_sykvad.jpg",
+      },
+
+      {
+        id: 8,
+        name: "File Folder",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719414192/colorbook/products/grabprinting_folder_mockup_04_501px_501px-removebg-preview_v0rqto.png",
+      },
+      {
+        id: 9,
+        name: "ID Card Ribbon",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719416200/colorbook/products/Factory-Custom-Polyester-Materiel-Heat-Transfer-Printing-Lanyard-Wholesale-Company-ID-Card-Sublimation-Fashion-Neck-Nylon-Ribbon-for-Promotional-removebg-preview_ui7aqh.png",
       },
     ],
   },
@@ -52,43 +71,81 @@ const servicesData = [
     productSlug: "marketing-material",
     products: [
       {
-        id: 4,
+        id: 10,
         name: "Brochure",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152544/colorbook/category/brochure.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719416328/colorbook/products/Brochure-Printing-Service-in-Bangladesh-3-removebg-preview_z5ibog.png",
       },
       {
-        id: 5,
-        name: "Flyer",
-        imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152544/colorbook/category/flyer.jpg",
-      },
-      {
-        id: 6,
-        name: "Business Card",
-        imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152544/colorbook/category/business-card.jpg",
-      },
-      {
-        id: 25,
-        name: "Poster",
-        imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152544/colorbook/category/poster.jpg",
-      },
-      {
-        id: 26,
-        name: "Banner",
-        imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152544/colorbook/category/banner.jpg",
-      },
-      {
-        id: 27,
+        id: 11,
         name: "Catalog",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152544/colorbook/category/catalog.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719417041/colorbook/products/Brochure-Printing-Service-in-Bangladesh-3-1-removebg-preview_p21rny.png",
+      },
+      {
+        id: 12,
+        name: "Company Profile",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719418065/colorbook/products/96d035549d7d1da9839b00a3861bf75b-removebg-preview_bf0f5c.png",
+      },
+      {
+        id: 13,
+        name: "Desk Calendar",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719417954/colorbook/products/1-removebg-preview_gknwoj.png",
+      },
+
+      {
+        id: 14,
+        name: "Wall Calendar",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719417624/colorbook/products/Creative-photography-wall-calendar-design-template-2024-scaled-removebg-preview_lmolhh.png",
+      },
+      {
+        id: 15,
+        name: "Flyer",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719418641/colorbook/products/Corporate-Flyer-Design-Business-Flyer-Graphics-27373652-1-1-580x386-removebg-preview_irkbnf.png",
+      },
+      {
+        id: 16,
+        name: "Leaflet",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719419122/colorbook/products/Leaflet-printing-service-in-Bangladesh-9-removebg-preview_umjibj.png",
+      },
+      {
+        id: 17,
+        name: "Magazine",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719420158/colorbook/products/2nd-500x500_vncbbs.jpg",
+      },
+      {
+        id: 18,
+        name: "Sticker",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720024373/colorbook/products/flat-travel-exploration-labels-collection_pz6qrr.png",
+      },
+      {
+        id: 19,
+        name: "Poster",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1719421906/colorbook/products/flyer-poster-design-1000x1000_rc431j.jpg",
+      },
+      {
+        id: 20,
+        name: "PVC Banner",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719420824/colorbook/products/PVC-Banners-removebg-preview_ws36bv.png",
+      },
+      {
+        id: 21,
+        name: "Festoon",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719421277/colorbook/products/B3-removebg-preview_db61xk.png",
       },
     ],
   },
+
   {
     id: 3,
     imgUrl:
@@ -97,40 +154,76 @@ const servicesData = [
     productSlug: "restaurant-item",
     products: [
       {
-        id: 7,
-        name: "Menu",
+        id: 22,
+        name: "Food Parcel Box",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152096/colorbook/category/menu.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720024668/colorbook/products/collection-cardboard-boxes-shipping_ewfbrf.png",
       },
       {
-        id: 8,
-        name: "Table Tent",
+        id: 23,
+        name: "Sandwich Takeaway Box",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152096/colorbook/category/table-tent.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1719501478/colorbook/products/sandwich-packaging-boxes-500x500_q1xm86.jpg",
       },
       {
-        id: 9,
-        name: "Coaster",
+        id: 24,
+        name: "Pizza Box",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152096/colorbook/category/coaster.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1719501643/colorbook/products/printed-corrugated-pizza-box-250x250_ii4vjn.jpg",
+      },
+      {
+        id: 25,
+        name: "Burger Takeaway Box",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1719501953/colorbook/products/paper-food-boxes-250x250_vkf3e5.jpg",
+      },
+      {
+        id: 26,
+        name: "Cake Takeaway Box",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1719502434/colorbook/products/untitled-250x250_vz6vx0.png",
+      },
+      {
+        id: 27,
+        name: "Chow Mein Takeaway Box",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1719502922/colorbook/products/noodle-take-away-box-250x250_rgamgk.jpg",
       },
       {
         id: 28,
-        name: "Napkin",
+        name: "Sweet Parcel Box",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152096/colorbook/category/napkin.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719503068/colorbook/products/sweet-boxes-1000x1000-removebg-preview_uydocl.png",
       },
       {
         id: 29,
-        name: "Placemat",
+        name: "French Fries Packet",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152096/colorbook/category/placemat.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719503156/colorbook/products/screenshot-2021-11-10-165824-500x500-removebg-preview_vkfaep.png",
       },
       {
         id: 30,
-        name: "Utensils",
+        name: "Food Takeaway Bag",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152096/colorbook/category/utensils.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719503220/colorbook/products/bakery-paper-bags-500x500-removebg-preview_p79tqq.png",
+      },
+      {
+        id: 31,
+        name: "Paper Cup",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719503293/colorbook/products/disposable-paper-cup-and-glass-500x500-removebg-preview_e7aeoi.png",
+      },
+      {
+        id: 32,
+        name: "Food Menu Card",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719504008/colorbook/products/menu-card-printing-services-1000x1000-removebg-preview_qfshgf.png",
+      },
+      {
+        id: 33,
+        name: "PVC Food Menu Board ",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719508362/colorbook/products/food-menu-board-removebg-preview_yehryk.png",
       },
     ],
   },
@@ -142,40 +235,58 @@ const servicesData = [
     productSlug: "gift-item",
     products: [
       {
-        id: 10,
-        name: "Mug",
+        id: 34,
+        name: "Customized Mug",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719149901/colorbook/category/mug.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1719937746/colorbook/products/MXP-4001-Custom-Mugs-SWS-Product-Tile-001_szvzce.png",
       },
       {
-        id: 11,
-        name: "Keychain",
+        id: 35,
+        name: "Customized Pen",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719149901/colorbook/category/keychain.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/c_crop,ar_4:3/v1719937631/colorbook/products/IN_Sleek-Pens_001-removebg-preview_uxumpd.png",
       },
       {
-        id: 12,
+        id: 36,
+        name: "Tissue box",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719935115/colorbook/products/1968A11B-A86A-4579-BE7D-09D067381D17-removebg-preview_k0y48p.png",
+      },
+      {
+        id: 37,
         name: "Diary",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719149901/colorbook/category/diary.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719935363/colorbook/products/2023-diary-removebg-preview_guweug.png",
       },
       {
-        id: 31,
-        name: "T-shirt",
+        id: 38,
+        name: "Notebook",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719149901/colorbook/category/tshirt.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719935522/colorbook/products/NPIB15910-Notebook-Expansion-Hero01-removebg-preview_wqhkdy.png",
       },
       {
-        id: 32,
-        name: "Cap",
+        id: 39,
+        name: "Desk Calendar",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719149901/colorbook/category/cap.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/c_crop,ar_4:3/v1719937512/colorbook/products/IN_Desk-calendars_Hero-image_01-removebg-preview_tjxf5x.png",
       },
       {
-        id: 33,
-        name: "Poster",
+        id: 40,
+        name: "Button Badge",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719149901/colorbook/category/poster.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/c_crop,ar_4:3/v1719936082/colorbook/products/IN_Button-Badge_Hero-image_01-removebg-preview_quclh5.png",
+      },
+      {
+        id: 41,
+        name: "Key Ring",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/c_crop,ar_4:3/v1719936748/colorbook/products/in_keychains_001-removebg-preview_rjmseg.png",
+      },
+      {
+        id: 41,
+        name: "Customize Pen Stand",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/c_crop,w_400,h_350/v1719937915/colorbook/products/product-jpeg-500x500-removebg-preview_qfmyy9.png",
       },
     ],
   },
@@ -187,40 +298,58 @@ const servicesData = [
     productSlug: "medical",
     products: [
       {
-        id: 13,
-        name: "Medical Folder",
+        id: 42,
+        name: "Patient File Folder",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719149714/colorbook/category/medical-folder.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720023302/colorbook/products/hospital-healthcare-service-poster_t6wqlt.png",
       },
       {
-        id: 14,
-        name: "Prescription Pad",
+        id: 43,
+        name: "Doctor Prescription",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719149714/colorbook/category/prescription-pad.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720023160/colorbook/products/professional-rx-prescription-pad-mockup-business-promotion-vector_1_bia6gl.png",
       },
       {
-        id: 15,
-        name: "Medical Bag",
+        id: 44,
+        name: "Medical Report Envelope",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719149714/colorbook/category/medical-bag.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720021276/colorbook/products/y9ng6i8k-removebg-preview_nokrsb.png",
       },
       {
-        id: 34,
-        name: "Medical Mask",
+        id: 45,
+        name: "X-Ray Envelope",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719149714/colorbook/category/medical-mask.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720021816/colorbook/products/20200907143211_envelopes1__1_-removebg-preview_erljmm.png",
       },
       {
-        id: 35,
-        name: "Gloves",
+        id: 46,
+        name: "Medicine Packaging",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719149714/colorbook/category/gloves.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720022191/colorbook/products/Pick-a-style-thats-simple-to-open-1-1-removebg-preview_yzocmh.png",
       },
       {
-        id: 36,
-        name: "Stethoscope",
+        id: 47,
+        name: "Medicine Label",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719149714/colorbook/category/stethoscope.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720022899/colorbook/products/bottle-vitamin-b2_ljmpn3.png",
+      },
+      {
+        id: 48,
+        name: "Medicine Literature",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720023037/colorbook/products/flat-pharmacist-day-vertical-poster-template_s4jf00.png",
+      },
+      {
+        id: 49,
+        name: "File ",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720023948/colorbook/products/file-design-removebg-preview_ensacu.png",
+      },
+      {
+        id: 50,
+        name: "Hospital flayer",
+        imgUrl:
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720024192/colorbook/products/flat-design-coronavirus-prevention-poster-hotels_fghutb.png",
       },
     ],
   },
@@ -232,40 +361,40 @@ const servicesData = [
     productSlug: "packaging",
     products: [
       {
-        id: 16,
-        name: "Paper Bag",
+        id: 51,
+        name: "Shopping Bag",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152797/colorbook/category/paper-bag.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720098880/colorbook/products/shopping-bag-realistic-colored-composition_efp66x.png",
       },
       {
-        id: 17,
-        name: "Box",
+        id: 52,
+        name: "Paper Cup",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152797/colorbook/category/box.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720099088/colorbook/products/3383868_57373-removebg-preview_cjzmcf.png",
       },
       {
-        id: 18,
-        name: "Label",
+        id: 53,
+        name: "Paper Bags",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152797/colorbook/category/label.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/c_crop,ar_4:3/v1720099324/colorbook/products/paper-shopping-bag-bright-apartment_rohdgc.png",
       },
       {
-        id: 37,
-        name: "Ribbon",
+        id: 54,
+        name: "Courier Parcel Bag",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152797/colorbook/category/ribbon.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720100150/colorbook/products/Self-adhesive-biodegradable-plastic-mailing-custom-poly-600x600-removebg-preview_iecgsa.png",
       },
       {
-        id: 38,
-        name: "Tissue Paper",
+        id: 55,
+        name: "Tissue Paper Box",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152797/colorbook/category/tissue-paper.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719935115/colorbook/products/1968A11B-A86A-4579-BE7D-09D067381D17-removebg-preview_k0y48p.png",
       },
       {
-        id: 39,
+        id: 56,
         name: "Wrapping Paper",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719152797/colorbook/category/wrapping-paper.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720100276/colorbook/products/top-view-stack-christmas-gifts_xxmew4.png",
       },
     ],
   },
@@ -273,44 +402,44 @@ const servicesData = [
     id: 7,
     imgUrl:
       "https://res.cloudinary.com/mahabub-bd/image/upload/v1719155176/colorbook/category/Prescription-300x300_cavulz.jpg",
-    title: "Pharmaceutical",
-    productSlug: "pharmaceutical",
+    title: "Others",
+    productSlug: "others",
     products: [
       {
-        id: 19,
-        name: "Medicine Box",
+        id: 57,
+        name: "Hang Tag",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719155176/colorbook/category/medicine-box.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720101199/colorbook/products/tag-clothes_xekctn.png",
       },
       {
-        id: 20,
-        name: "Medicine Label",
+        id: 58,
+        name: "Scratch Card",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719155176/colorbook/category/medicine-label.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720101659/colorbook/products/448736954_905150498292204_1138475066960047329_n-removebg-preview_uq3zkt.png",
       },
       {
-        id: 21,
-        name: "Prescription",
+        id: 59,
+        name: "QR Stand",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719155176/colorbook/category/prescription.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720103726/colorbook/products/2149321635_qnc9nm.jpg",
       },
       {
-        id: 40,
-        name: "Blister Pack",
+        id: 60,
+        name: "Die-cut Sticker",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719155176/colorbook/category/blister-pack.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720103829/colorbook/products/2149894351_tzuanw.jpg",
       },
       {
-        id: 41,
-        name: "Pill Bottle",
+        id: 61,
+        name: "Barcode Sticker",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719155176/colorbook/category/pill-bottle.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720104200/colorbook/products/83389_mnbzfl.jpg",
       },
       {
-        id: 42,
-        name: "Syringe",
+        id: 62,
+        name: "QR Sticker",
         imgUrl:
-          "https://res.cloudinary.com/mahabub-bd/image/upload/v1719155176/colorbook/category/syringe.jpg",
+          "https://res.cloudinary.com/mahabub-bd/image/upload/v1720103726/colorbook/products/2149321635_qnc9nm.jpg",
       },
     ],
   },
@@ -371,6 +500,98 @@ const whyChooseUs = [
       "We have prompt transport system to reach the products to end customers without any delay.",
     imageUrl:
       "https://res.cloudinary.com/mahabub-bd/image/upload/v1715179671/colorbook/efficient_m0w0bq.png",
+  },
+];
+const testimonialsData = [
+  {
+    id: 1,
+    quote:
+      "The quality of the printing and the attention to detail is outstanding. Highly recommended for any printing needs.",
+    image:
+      "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1720107551/colorbook/vecteezy_man-avatar-vector-icon_6487917_vp8cea.jpg",
+    name: "Asif Rahman",
+    role: "Marketing Manager, Ziska Apparels",
+  },
+  {
+    id: 2,
+    quote:
+      "Colorbook Printing Services provided exceptional service with a quick turnaround. Very satisfied with the results.",
+    image:
+      "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1720107551/colorbook/vecteezy_man-avatar-vector-icon_6487917_vp8cea.jpg",
+    name: "Tasfia Ahmed",
+    role: "Procurement Officer, British American Tobacco Bangladesh",
+  },
+  {
+    id: 3,
+    quote:
+      "Their team was very professional and delivered top-notch quality. We will definitely use their services again.",
+    image:
+      "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1720107551/colorbook/vecteezy_man-avatar-vector-icon_6487917_vp8cea.jpg",
+    name: "Rafiq Hossain",
+    role: "Operations Manager, Runner Automobiles Ltd.",
+  },
+  {
+    id: 4,
+    quote:
+      "From start to finish, Colorbook Printing Services exceeded our expectations. Great job!",
+    image:
+      "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1720107551/colorbook/vecteezy_man-avatar-vector-icon_6487917_vp8cea.jpg",
+    name: "Jannatul Ferdous",
+    role: "CEO, Carnival Internet Service Provider",
+  },
+  {
+    id: 5,
+    quote:
+      "They offered a variety of options to suit our needs and budget. The final product was impressive.",
+    image:
+      "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1720107551/colorbook/vecteezy_man-avatar-vector-icon_6487917_vp8cea.jpg",
+    name: "Kamal Uddin",
+    role: "Finance Manager, SME Foundation Bangladesh",
+  },
+  {
+    id: 6,
+    quote:
+      "The team at Colorbook Printing Services was fantastic. They delivered exactly what we needed on time.",
+    image:
+      "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1720107551/colorbook/vecteezy_man-avatar-vector-icon_6487917_vp8cea.jpg",
+    name: "Shapla Begum",
+    role: "HR Manager, BRB Cable Industries Ltd.",
+  },
+  {
+    id: 7,
+    quote:
+      "High-quality prints and exceptional customer service. We couldn't be happier with the results.",
+    image:
+      "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1720107551/colorbook/vecteezy_man-avatar-vector-icon_6487917_vp8cea.jpg",
+    name: "Rezaul Karim",
+    role: "Marketing Director, Square Hospitals Ltd.",
+  },
+  {
+    id: 8,
+    quote:
+      "Colorbook Printing Services is our go-to printing company. They always deliver quality work.",
+    image:
+      "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1720107551/colorbook/vecteezy_man-avatar-vector-icon_6487917_vp8cea.jpg",
+    name: "Fatema Khanam",
+    role: "Managing Director, Labaid Specialized Hospital",
+  },
+  {
+    id: 9,
+    quote:
+      "Their printing services are top-notch and their staff is extremely helpful. Highly recommend!",
+    image:
+      "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1720107551/colorbook/vecteezy_man-avatar-vector-icon_6487917_vp8cea.jpg",
+    name: "Imran Hasan",
+    role: "Project Manager, Sesame Workshop Bangladesh",
+  },
+  {
+    id: 10,
+    quote:
+      "Colorbook Printing Services exceeded our expectations in terms of quality and delivery time.",
+    image:
+      "https://res.cloudinary.com/mahabub-bd/image/upload/e_background_removal/f_png/v1720107551/colorbook/vecteezy_man-avatar-vector-icon_6487917_vp8cea.jpg",
+    name: "Amina Haque",
+    role: "Chief Operating Officer, Apollo Hospitals Dhaka",
   },
 ];
 
@@ -505,4 +726,4 @@ const clientsData = [
   },
 ];
 
-export { clientsData, imageUrls, servicesData, whyChooseUs };
+export { clientsData, imageUrls, servicesData, testimonialsData, whyChooseUs };

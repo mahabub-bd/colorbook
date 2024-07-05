@@ -17,7 +17,7 @@ const Navbar = () => {
           <Image
             src={Logo}
             alt="headerlogo"
-            className="w-[220px]  object-contain p-1"
+            className="md:w-[200px] w-[160px] object-contain p-1"
             priority
           />
         </Link>

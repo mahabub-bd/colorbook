@@ -1,5 +1,4 @@
 import bannerImage from "https://res.cloudinary.com/mahabub-bd/image/upload/v1719147803/bg-page-title_wk7tvr.jpg";
-import Link from "next/link";
 
 const PageBanner = ({ pageName }) => {
   return (
@@ -15,12 +14,8 @@ const PageBanner = ({ pageName }) => {
         <div className="text-center">
           <h2 className="text-4xl font-bold mb-4">{pageName}</h2>
           <nav aria-label="breadcrumb">
-            <ol className="inline-flex items-center space-x-2 bg-red-500 py-1 px-4 rounded-sm">
-              <li>
-                <Link href="/" className="text-white">
-                  Home
-                </Link>
-              </li>
+            <ol className="inline-flex items-center space-x-2 bg-red-500 py-1 px-4 rounded-md">
+              <li className="text-white">Home</li>
               <li className="text-gray-200">/</li>
               <li aria-current="page" className="text-white">
                 {pageName}

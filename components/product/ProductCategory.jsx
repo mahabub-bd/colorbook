@@ -10,29 +10,29 @@ export default function ProductCategory() {
     router.push(`/products/${productSlug}`);
   };
 
-  return (
-    <div className="container flex flex-wrap gap-4 border mx-auto justify-center my-20">
+  const NavigationButton = ({ path, label }) => {
+    const isActive = pathname === path;
+    return (
       <button
         className={`px-2 rounded-md text-white ${
-          pathname === "/products" ? "bg-slate-900" : "bg-slate-700"
+          isActive ? "bg-slate-900" : "bg-slate-700"
         }`}
-        onClick={() => router.push("/products")}
+        onClick={() => router.push(path)}
       >
-        All Products
+        {label}
       </button>
+    );
+  };
+
+  return (
+    <div className="container flex flex-wrap  md:gap-2 gap-3 border justify-center md:justify-around my-10 mx-auto pt-10 ">
+      <NavigationButton path="/products" label="All Products" />
       {servicesData.map((service) => (
-        <div key={service?.id}>
-          <button
-            className={`px-2 rounded-md text-white ${
-              pathname === `/products/${service.productSlug}`
-                ? "bg-slate-900"
-                : "bg-slate-700"
-            }`}
-            onClick={() => handleNavigation(service.productSlug)}
-          >
-            {service.title}
-          </button>
-        </div>
+        <NavigationButton
+          key={service.id}
+          path={`/products/${service.productSlug}`}
+          label={service.title}
+        />
       ))}
     </div>
   );
