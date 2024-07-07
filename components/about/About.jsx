@@ -1,30 +1,41 @@
+import { AboutOne } from "@/public";
+import Image from "next/image";
 const Colorbook = () => {
   return (
     <div className="py-8 container ">
-      <section className="mb-8">
-        <h1 className="text-3xl font-bold text-center text-red-600">
-          About COLORBOOK
-        </h1>
-        <p className="mt-4">
-          Founded in 2015, COLORBOOK has established itself as a comprehensive
-          provider of printing and packaging services, catering to a diverse
-          array of industries. Our extensive team is dedicated to delivering
-          exceptional service to corporate clients across sectors such as cable,
-          automotive, healthcare, non-profit organizations, consultancy firms,
-          and the garment industry. Additionally, we extend our printing
-          expertise to individual clients, ensuring personalized and
-          high-quality solutions for all.
-        </p>
-        <p className="mt-4">
-          Under the expert leadership of Mr. Md. Zahidul Haque, the proprietor,
-          COLORBOOK operates with a deep-seated commitment to excellence. His
-          extensive experience in the printing sector has been instrumental in
-          guiding our operations and fostering a reputation for reliability and
-          customer satisfaction.
-        </p>
+      <section className="mb-8 flex flex-col md:flex-row text-justify">
+        <div className="md:w-1/3 flex justify-center md:justify-start p-4 hover:scale-95 ">
+          <Image
+            src={AboutOne}
+            alt="Colorbook Image"
+            width={450}
+            height={260}
+            className=" rounded-lg "
+          />
+        </div>
+        <div className="md:w-2/3 md:ml-8">
+          <p className="mt-4 ">
+            Founded in 2015, COLORBOOK has established itself as a comprehensive
+            provider of printing and packaging services, catering to a diverse
+            array of industries. Our extensive team is dedicated to delivering
+            exceptional service to corporate clients across sectors such as
+            cable, automotive, healthcare, non-profit organizations, consultancy
+            firms, and the garment industry. Additionally, we extend our
+            printing expertise to individual clients, ensuring personalized and
+            high-quality solutions for all.
+          </p>
+          <p className="mt-4 ">
+            Under the expert leadership of{" "}
+            <span className="text-red-500">Mr. Md. Zahidul Haque</span>, the
+            proprietor, COLORBOOK operates with a deep-seated commitment to
+            excellence. His extensive experience in the printing sector has been
+            instrumental in guiding our operations and fostering a reputation
+            for reliability and customer satisfaction.
+          </p>
+        </div>
       </section>
 
-      <section className="mb-8">
+      <section className="mb-8 text-justify">
         <h2 className="text-2xl font-semibold text-center text-red-600">
           Our Philosophy
         </h2>

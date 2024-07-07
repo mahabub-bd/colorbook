@@ -25,16 +25,16 @@ export default function Carousel() {
         {imageUrls.map((imageUrl, index) => (
           <SwiperSlide key={index} className="relative bg-black">
             <Image
-              className="md:h-[600px]  h-[350px] w-full "
+              className="md:h-[600px]  h-[340px] w-full "
               src={imageUrl}
               alt="car"
               width={1920}
               height={800}
             />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="bg-black bg-opacity-10 sm:text:3xl md:text-5xl  text-white md:p-4 p-0 rounded">
+            <div className="absolute top-[70%] inset-0 flex items-center justify-center">
+              <h1 className="bg-black bg-opacity-10  md:text-5xl text-3xl  font-light text-center  text-white md:p-4 p-0 rounded">
                 Complete solution in Printing & Packaging
-              </div>
+              </h1>
             </div>
           </SwiperSlide>
         ))}

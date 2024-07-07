@@ -12,16 +12,16 @@ const OurClients = () => {
 
   return (
     <section
-      className=" bgc-lighter py-50 relative"
+      className="bgc-lighter py-50 relative mx-auto"
       style={{ backgroundImage: `url(${WhatWeDo.src})` }}
     >
       <div className="container mx-auto">
         <SectionHeader
           subtitle="Our Clients"
-          title="Your One Stop Design & Printing Soulations"
+          title="Your One Stop Design & Printing Solutions"
         />
       </div>
-      <div className="">
+      <div>
         <Swiper
           slidesPerView={8}
           spaceBetween={20}
@@ -52,14 +52,17 @@ const OurClients = () => {
           className="mySwiper"
         >
           {clientsData.map((client) => (
-            <SwiperSlide key={client.id}>
-              <div className="w-64 h-64 mt-5 flex justify-center items-center">
+            <SwiperSlide
+              className="flex items-center justify-center"
+              key={client.id}
+            >
+              <div className="mt-4 w-40 h-40 flex items-center justify-center">
                 <Image
                   src={client?.imgUrl}
-                  width={150}
-                  height={80}
+                  width={140}
+                  height={140}
                   alt={client?.clientName}
-                  className=" object-cover"
+                  className="object-contain"
                 />
               </div>
             </SwiperSlide>

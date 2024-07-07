@@ -4,7 +4,7 @@ import { servicesData } from "@/constants/data";
 import { WhatWeDo } from "@/public";
 import Image from "next/image";
 import Link from "next/link";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import SectionHeader from "../common/SectionHeader";
@@ -49,12 +49,12 @@ const WhatWeProvide = () => {
             },
           }}
           loop={true}
-          modules={[Autoplay]}
+          modules={[Autoplay, Pagination]}
           className="mySwiper"
         >
           {servicesData.map((service) => (
             <SwiperSlide
-              className="flex  flex-col md:p-2 p-1 shadow-md bg-gradient-to-br from-custom-pink to-custom-orange rounded-lg"
+              className="flex flex-col shadow-2xl bg-white  rounded-lg"
               key={service.id}
             >
               <div className="mt-4 text-center w-full">
@@ -67,9 +67,9 @@ const WhatWeProvide = () => {
                 />
               </div>
 
-              <div className="md:my:2 my-1 text-center w-full">
+              <div className=" text-center w-full custom-background mt-10 text-gray-100 space-y-5">
                 <Link
-                  className="font-semibold text-black"
+                  className="  hover:text-white"
                   href={`products/${service.productSlug}`}
                 >
                   {service.title}
