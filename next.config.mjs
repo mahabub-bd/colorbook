@@ -10,10 +10,7 @@ const nextConfig = {
         hostname: "res.cloudinary.com",
       },
     ],
-    unoptimized: true,
   },
-  output: "export",
-  distDir: "build",
 };
 
 export default nextConfig;
