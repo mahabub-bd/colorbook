@@ -17,7 +17,7 @@ import HeaderTop from "https://res.cloudinary.com/mahabub-bd/image/upload/v17130
 import HeroOne from "https://res.cloudinary.com/mahabub-bd/image/upload/v1713016254/colorbook/hero-1_g3ceue.jpg";
 
 import WhatWeDo from "https://res.cloudinary.com/mahabub-bd/image/upload/v1713016114/colorbook/what-we-provide_bbuoud.png";
-import TelephoneIcon from "https://res.cloudinary.com/mahabub-bd/image/upload/v1713447727/icons8-telephone-90_qaid7y.svg";
+import TelephoneIcon from "https://res.cloudinary.com/mahabub-bd/image/upload/v1713149806/colorbook/phone_qukq4o.svg";
 
 import AboutOne from "https://res.cloudinary.com/mahabub-bd/image/upload/v1715272884/rs_w_365_h_365_cg_true_niewgo.webp";
 import AboutTwo from "https://res.cloudinary.com/mahabub-bd/image/upload/v1715273090/rs_w_370_cg_true_m_eahzfn.png";
